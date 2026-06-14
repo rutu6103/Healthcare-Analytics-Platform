@@ -9,8 +9,8 @@ PATIENT_PATH = os.path.join(BASE_DIR, "data", "processed", "fhir", "patient.csv"
 ENCOUNTER_PATH = os.path.join(BASE_DIR, "data", "processed", "fhir", "encounter.csv")
 CONDITION_PATH = os.path.join(BASE_DIR, "data", "processed", "fhir", "condition.csv")
 
-DB_USER = "postgres"
-DB_PASSWORD = "Rutuja@6"
+DB_USER = "your_username"
+DB_PASSWORD = "your_password"
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "healthcare_analytics"
